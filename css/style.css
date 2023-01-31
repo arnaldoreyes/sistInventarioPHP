@@ -1,0 +1,11 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.btn-warning{
+    --bs-btn-hover-color: #fff;
+    --bs-btn-color: #fff;
+    --bs-btn-hover-bg: #FE8C00;
+    --bs-btn-hover-border-color: #FE8C00;
+}
