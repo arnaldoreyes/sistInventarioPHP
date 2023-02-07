@@ -13,9 +13,9 @@
                         Usuarios
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item " href="#">Nuevo</a></li>
-                        <li><a class="dropdown-item" href="#">Lista</a></li>
-                        <li><a class="dropdown-item" href="#">Buscar</a></li>
+                        <li><a class="dropdown-item " href="index.php?view=user_new">Nuevo</a></li>
+                        <li><a class="dropdown-item" href="index.php?view=user_list">Lista</a></li>
+                        <li><a class="dropdown-item" href="index.php?view=user_search">Buscar</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -41,8 +41,8 @@
                 </li>
             </ul>
             <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-sm btn btn-success me-2">Mi Cuenta</button>
-                <button type="button" class="btn btn-sm btn-outline-danger">Salir</button>
+                <a class="btn btn-sm btn btn-success me-2" role="button">Mi Cuenta</a>
+                <a class="btn btn-sm btn-outline-danger" role="button" href="index.php?view=logout">Salir</a>
             </div>
         </div>
     </div>

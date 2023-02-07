@@ -1,0 +1,12 @@
+<?php
+
+    require_once "./inc/session_start.php";
+    session_destroy();
+
+    if(headers_sent()){
+        echo "<script> window.location.href='index.php?view=login'; </script>";
+    }else{
+        header("Location: index.php?view=login");
+    }
+
+?>
